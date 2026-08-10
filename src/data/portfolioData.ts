@@ -26,6 +26,11 @@ export interface SkillCategory {
   category: string;
   items: { name: string; level: number; icon: string }[];
 }
+export interface Certification {
+  title: string;
+  issuer: string;
+  date: string;
+}
 
 export const PORTFOLIO_DATA = {
   personal: {
@@ -170,6 +175,6 @@ export const PORTFOLIO_DATA = {
     { title: "Microsoft Certified: Power BI Data Analyst Associate (PL-300)", issuer: "Microsoft", date: "2023" },
     { title: "AWS Certified Data Analytics - Specialty", issuer: "Amazon Web Services", date: "2023" },
     { title: "Databricks Certified Associate Developer for Apache Spark", issuer: "Databricks", date: "2022" }*/
-  ]
+  ]as Certification[] // <-- Add explicit type casting here
   
 };
