@@ -90,8 +90,8 @@ export const PORTFOLIO_DATA = {
         "Saved an estimated $1.1M in Medicare regulatory fines."
       ],
       metrics: "18% Readmission Reduction",
-      github: "https://github.com/alexthorne/hospital-readmission-ml",
-      demo: "https://demo.readmission-analytics.io",
+      github: "https://github.com/MohammedHashim007/hospital-readmission-prediction",
+      demo: "https://personal-portfolio-beta-murex.vercel.app/#projects",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200"
     },
     {
@@ -109,14 +109,14 @@ export const PORTFOLIO_DATA = {
         "Adopted by C-Suite for quarterly board budget presentations."
       ],
       metrics: "$3.8M Cost Savings Identified",
-      github: "https://github.com/alexthorne/enterprise-it-spend-bi",
+      github: "https://github.com/MohammedHashim007/IT-Expenditure-Analysis-Dashboard",
       demo: "https://demo.finops-analytics.io",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200"
     },
     {
       id: "customer-churn",
-      title: "Telecom Customer Churn Engine",
-      category: "Predictive Analytics & CRM",
+      title: "Customer Churn Engine",
+      category: "Predictive Analytics",
       description: "Real-time customer risk scoring and churn mitigation engine integrated with automated email triggers.",
       problem: "Telecom operator faced 4.2% monthly subscriber churn without early warning indicators.",
       solution: "Trained Random Forest & Logistic Regression ensemble models to generate daily churn risk probabilities sent directly to CRM teams.",
@@ -127,9 +127,9 @@ export const PORTFOLIO_DATA = {
         "Decreased overall monthly subscriber churn by 1.2%.",
         "Generated $850K annualized retained ARR."
       ],
-      metrics: "+34% Offer Acceptance Rate",
+      metrics: "https://github.com/MohammedHashim007/Customer-Churn-Prediction",
       github: "https://github.com/alexthorne/telecom-churn-predictor",
-      demo: "https://demo.churn-engine.io",
+      demo: "https://customer-churn-prediction-o47ba74f7dwwms5yz97mvu.streamlit.app/",
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200"
     }
   ] as Project[],
@@ -140,7 +140,7 @@ export const PORTFOLIO_DATA = {
       period: "2025",
       location: "Chennai, India",
       achievements: [
-        "Architected 12+ enterprise Power BI dashboard solutions serving 400+ daily active corporate stakeholders.",
+        "Developed and evaluated machine learning models using Python and Scikit-learn, achieving up to 85%+ model accuracy through data preprocessing, feature engineering, and model tuning..",
         "Reduced ETL pipeline execution times by 45% through SQL query optimization and PySpark partitioning.",
         "Pioneered internal LLM-powered SQL Query Assistant using OpenAI API, cutting ad-hoc data requests by 30%."
       ]
