@@ -81,9 +81,9 @@ export const PORTFOLIO_DATA = {
       category: "Machine Learning & Healthcare",
       description: "Predictive clinical pipeline forecasting 30-day patient readmissions using XGBoost and LightGBM.",
       problem: "Healthcare system suffered $4.2M annual penalties due to unpredicted 30-day readmission spikes.",
-      solution: "Engineered an end-to-end Machine Learning pipeline processing 250,000+ EHR records with automated triage alerts in Power BI.",
-      techStack: ["Python", "Numpy", "Pandas", "Scikit-Learn", "Power BI", "PostgreSQL", "AWS Redshift"],
-      challenges: "Handling severe class imbalance (88/12 split) and data leakage across multi-hospital transfer logs.",
+      solution: "Engineered an end-to-end Machine Learning pipeline processing 250,000+ EHR records with Predictive analysis in Machine learning.",
+      techStack: ["Python", "Numpy", "Pandas", "Scikit-Learn", "Power BI", "SQL", "HTML", "CSS", "JavaScript"],
+      challenges: "Prepared and analyzed 100,000+ patient records, applying data cleaning, feature engineering, and preprocessing techniques to build reliable readmission prediction models.",
       results: [
         "Reduced 30-day readmissions by 18% in initial 6 months.",
         "Achieved 0.89 ROC-AUC score across validation cohorts.",
