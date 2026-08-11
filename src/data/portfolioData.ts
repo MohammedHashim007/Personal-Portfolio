@@ -141,8 +141,8 @@ export const PORTFOLIO_DATA = {
       location: "Chennai, India",
       achievements: [
         "Developed and evaluated machine learning models using Python and Scikit-learn, achieving up to 85%+ model accuracy through data preprocessing, feature engineering, and model tuning..",
-        "Reduced ETL pipeline execution times by 45% through SQL query optimization and PySpark partitioning.",
-        "Pioneered internal LLM-powered SQL Query Assistant using OpenAI API, cutting ad-hoc data requests by 30%."
+        "Built interactive Power BI dashboards with 10+ KPIs and business metrics, using Power Query, DAX, and data modeling to provide clear insights into trends and performance.",
+        "Performed data analysis using SQL, Python, and Excel, transforming raw datasets into meaningful insights and supporting data-driven decision-making and reducing manual analysis time by approximately 20%."
       ]
     },
 
