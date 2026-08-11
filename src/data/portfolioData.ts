@@ -81,7 +81,7 @@ export const PORTFOLIO_DATA = {
       category: "Machine Learning & Healthcare",
       description: "Predictive clinical pipeline forecasting 30-day patient readmissions using XGBoost and LightGBM.",
       problem: "Healthcare system suffered $4.2M annual penalties due to unpredicted 30-day readmission spikes.",
-      solution: "Engineered an end-to-end Machine Learning pipeline processing 250,000+ EHR records with Predictive analysis in Machine learning.",
+      solution: "Engineered an end-to-end Machine Learning pipeline processing 100,000+ EHR records with Predictive analysis in Machine learning.",
       techStack: ["Python", "Numpy", "Pandas", "Scikit-Learn", "Power BI", "SQL", "HTML", "CSS", "JavaScript"],
       challenges: "Prepared and analyzed 100,000+ patient records, applying data cleaning, feature engineering, and preprocessing techniques to build reliable readmission prediction models.",
       results: [
@@ -96,19 +96,19 @@ export const PORTFOLIO_DATA = {
     },
     {
       id: "it-expenditure",
-      title: "Enterprise IT Expenditure Executive Hub",
-      category: "Business Intelligence & FinOps",
+      title: "Enterprise IT Expenditure Analysis ",
+      category: "Business Intelligence & Data Analysis",
       description: "Real-time cost intelligence platform optimizing global IT infrastructure and SaaS spend.",
       problem: "Multinational firm lacked unified visibility into $45M IT spend scattered across 14 global subsidiaries.",
-      solution: "Built dynamic Power BI semantic model fed by automated PySpark ETL pipelines consolidating AWS, Azure, and ServiceNow billing APIs.",
-      techStack: ["Power BI", "DAX", "SQL Server", "Python", "REST APIs", "AWS S3"],
-      challenges: "Reconciling currency conversions and disparate SaaS subscription tiers dynamically without query latency.",
+      solution: "Built an interactive Power BI dashboard with KPI cards, monthly trends, business-area analysis, cost-element breakdowns, and country-level variance analysis.",
+      techStack: ["Power BI", "DAX", "SQL", "Python", "KPIs", "Power Query"],
+      challenges: "Creating meaningful KPIs and variance calculations while making the dashboard easy to filter and analyze.",
       results: [
-        "Identified $3.8M in redundant cloud instances and unused SaaS licenses.",
-        "Automated monthly finance reporting from 5 days down to 4 minutes.",
-        "Adopted by C-Suite for quarterly board budget presentations."
+        "Analyzed 555.7M in total actual expenditure.",
+        "Tracked 344.7M in plan vs actual variance.",
+        "Created 10+ KPIs and visuals for expenditure analysis."
       ],
-      metrics: "$3.8M Cost Savings Identified",
+      metrics: "$3.3M Cost Savings Identified",
       github: "https://github.com/MohammedHashim007/IT-Expenditure-Analysis-Dashboard",
       demo: "https://demo.finops-analytics.io",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200"
@@ -117,17 +117,17 @@ export const PORTFOLIO_DATA = {
       id: "customer-churn",
       title: "Customer Churn Engine",
       category: "Predictive Analytics",
-      description: "Real-time customer risk scoring and churn mitigation engine integrated with automated email triggers.",
+      description: "Machine learning application for predicting customer churn and identifying customers at risk of leaving.",
       problem: "Telecom operator faced 4.2% monthly subscriber churn without early warning indicators.",
-      solution: "Trained Random Forest & Logistic Regression ensemble models to generate daily churn risk probabilities sent directly to CRM teams.",
-      techStack: ["Python", "Pandas", "Scikit-Learn", "PostgreSQL", "Power BI", "FastAPI"],
-      challenges: "Processing high-volume daily call-detail-records (CDR) while maintaining low latency inference.",
+      solution: "Performed data analysis and preprocessing, trained a machine learning classification model, and deployed the prediction model through a Streamlit application.",
+      techStack: ["Python", " NumPy ", "Pandas", "Scikit-Learn", "SQL", "FastAPI"],
+      challenges: "Handling categorical data, selecting relevant features, and improving model prediction performance.",
       results: [
-        "Increased targeted retention offer acceptance from 12% to 34%.",
+        "Increased targeted retention offer acceptance from 12%.",
         "Decreased overall monthly subscriber churn by 1.2%.",
         "Generated $850K annualized retained ARR."
       ],
-      metrics: "https://github.com/MohammedHashim007/Customer-Churn-Prediction",
+      metrics: "12% Offer Acceptance Rate",
       github: "https://github.com/alexthorne/telecom-churn-predictor",
       demo: "https://customer-churn-prediction-o47ba74f7dwwms5yz97mvu.streamlit.app/",
       image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1200"
