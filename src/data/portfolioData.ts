@@ -114,25 +114,6 @@ export const PORTFOLIO_DATA = {
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200"
     },
     {
-      id: "it-expenditure",
-      title: "Enterprise IT Expenditure Analysis ",
-      category: "Business Intelligence & Data Analysis",
-      description: "Real-time cost intelligence platform optimizing global IT infrastructure and SaaS spend.",
-      problem: "Multinational firm lacked unified visibility into $45M IT spend scattered across 14 global subsidiaries.",
-      solution: "Built an interactive Power BI dashboard with KPI cards, monthly trends, business-area analysis, cost-element breakdowns, and country-level variance analysis.",
-      techStack: ["Power BI", "DAX", "SQL", "Python", "KPIs", "Power Query"],
-      challenges: "Creating meaningful KPIs and variance calculations while making the dashboard easy to filter and analyze.",
-      results: [
-        "Analyzed 555.7M in total actual expenditure.",
-        "Tracked 344.7M in plan vs actual variance.",
-        "Created 10+ KPIs and visuals for expenditure analysis."
-      ],
-      metrics: "$3.3M Cost Savings Identified",
-      github: "https://github.com/MohammedHashim007/IT-Expenditure-Analysis-Dashboard",
-      demo: "https://demo.finops-analytics.io",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200"
-    },
-    {
       id: "customer-churn",
       title: "Customer Churn Engine",
       category: "Predictive Analytics",
