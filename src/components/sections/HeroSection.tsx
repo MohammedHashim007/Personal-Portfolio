@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { TextScramble } from "../ui/TextScramble";
 import { MagneticButton } from "../ui/MagneticButton";
 import { PORTFOLIO_DATA } from "@/data/portfolioData";
-import { Download, ArrowUpRight, Sparkles } from "lucide-react";
+import { Download, ArrowUpRight, Sparkles, MessageCircle } from "lucide-react";
 
 // Dynamically import HeroCanvas to disable Server-Side Rendering for 3D elements
 const HeroCanvas = dynamic(
@@ -50,7 +50,7 @@ export const HeroSection = () => {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-wrap gap-4 pt-4">
+          <div className="flex flex-wrap items-center gap-4 pt-4">
             <MagneticButton>
               <a
                 href="#projects"
@@ -68,6 +68,19 @@ export const HeroSection = () => {
                 className="px-7 py-3.5 rounded-full glass-panel hover:bg-white/10 border border-white/10 text-white text-sm font-semibold flex items-center gap-2 transition-all"
               >
                 Resume <Download size={18} />
+              </a>
+            </MagneticButton>
+
+            <MagneticButton>
+              <a
+                href={`https://wa.me/971564745749?text=${encodeURIComponent(
+                  "Hello Mohammed, I viewed your portfolio and would like to connect!"
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-7 py-3.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-semibold text-sm flex items-center gap-2 hover:bg-emerald-500/20 hover:border-emerald-500/50 transition-all shadow-lg shadow-emerald-500/10"
+              >
+                WhatsApp <MessageCircle size={18} />
               </a>
             </MagneticButton>
           </div>
